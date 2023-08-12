@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: black;
+
+  canvas {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .shooting-icon {
+    margin-left: -20.5px;
+    margin-top: -20.5px;
+    pointer-events: none;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    svg {
+      display: flex;
+      stroke: #f7f7f750 !important;
+      fill: #f7f7f750 !important;
+    }
+  }
+}
